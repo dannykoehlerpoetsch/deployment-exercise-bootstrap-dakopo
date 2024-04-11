@@ -140,3 +140,12 @@ main .art-3 {
 .container {
   margin: 2em auto;
 }
+
+#back {
+  color: white;
+  background-color: rebeccapurple;
+  padding: 1em 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
