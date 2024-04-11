@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Danny's Döner</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./images/logo.jpg" alt="Döner Kebab Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Rezept</a></li>
+          <li><a href="#">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="hero">
+      <h1>Döner Kebab</h1>
+      <span>Mein Leibgericht</span>
+    </div>
+
+    <main>
+      <article class="art-1">
+        <div class="zutaten">
+          <h2>Zutaten</h2>
+          <ul>
+            <li>Fladenbrot</li>
+            <li>Kalbfleisch</li>
+            <li>Soßen</li>
+            <li>Eisbergsalat</li>
+            <li>Rotkraut</li>
+            <li>Weißkraut</li>
+            <li>Zwiebeln</li>
+            <li>Schafskäse</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="art-2">
+        <div class="zubereitung">
+          <h2>Zubereitung</h2>
+          <ol>
+            <li>Kalbfleisch am Spieß grillen</li>
+            <li>Fladenbrot toasten</li>
+            <li>Fladenbrot mit Soße bedecken</li>
+            <li>Kalbfleisch ins Brot füllen</li>
+            <li>erneut mit Soße bedecken</li>
+            <li>Zwiebeln, Eisbergsalat und Kraut hinzugeben</li>
+            <li>erneut etwas Fleisch dazugeben</li>
+            <li>ein wenig Soße auf das Fleisch geben</li>
+            <li>Schafskäse on top geben</li>
+            <li>Genießen</li>
+          </ol>
+        </div>
+      </article>
+
+      <article class="art-3">
+        <div class="dessert">
+          <h2>Dessert</h2>
+          <p>Als Dessert empfehle ich einen cremigen Schokoladenpudding.</p>
+        </div>
+      </article>
+
+      <div class="container justify-content-center">
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner justify-content-center">
+            <div class="carousel-item active">
+              <img
+                src="./images/kebab.jpg"
+                class="d-block w-100"
+                alt="fertiger Döner Kebab"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/spieß.jpg"
+                class="d-block w-100"
+                alt="Dönerfleisch am Spieß gebraten"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/dessert.jpg"
+                class="d-block w-100"
+                alt="Schokoladenpudding im Glas mit Sahne"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
