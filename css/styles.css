@@ -96,7 +96,7 @@ main .art-1 {
 .dessert {
   backdrop-filter: blur(7px);
   width: fit-content;
-  padding: 1.5rem 2rem;
+  padding: 0.5rem 2rem;
   color: antiquewhite;
   text-shadow: 1px 1px 10px black;
 }
@@ -139,11 +139,4 @@ main .art-3 {
 
 .container {
   margin: 2em auto;
-}
-.carousel-item {
-  object-fit: cover;
-}
-
-.carousel-item img {
-  height: 100%;
 }
