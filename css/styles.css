@@ -137,10 +137,11 @@ main .art-3 {
   width: 25%;
 }
 
+.container {
+  margin: 2em auto;
+}
 .carousel-item {
   object-fit: cover;
-  width: 80%;
-  height: 70vh;
 }
 
 .carousel-item img {
